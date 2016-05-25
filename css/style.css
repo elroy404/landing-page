@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*top navigation bar*/
 /*
 body{
@@ -27,6 +28,33 @@ body{
   border-color: blue;
 }
 
+=======
+.navigation {
+  height: auto;
+  width: 100%;
+  /*padding-top: .9em;*/
+  border-style: solid;
+  border-width: .2em;
+  border-color: orange;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container{
+  /*position: absolute;*/
+  height: 4em;
+  width: 60%;
+  padding: 0px 15px;
+  margin: 0 auto;
+  border-style: solid;
+  border-width: .2em;
+  border-color: blue;
+}
+
+>>>>>>> 2d5605f7141b2e3b779fe6e1cb53922de73b9a6d
 .logo{
   /*float: left;*/
   height: auto;
@@ -39,7 +67,11 @@ body{
 
 .menu{
   float: right;
+<<<<<<< HEAD
   margin-top: 1.3em;
+=======
+  /*margin-right: 8em;*/
+>>>>>>> 2d5605f7141b2e3b779fe6e1cb53922de73b9a6d
   border-style: solid;
   border-width: .1em;
 }
@@ -47,11 +79,16 @@ body{
 /*each individual menu item*/
 .menu-items{
   display: inline;
+<<<<<<< HEAD
   padding-right: 1.4em;
+=======
+  padding-right: 1em;
+>>>>>>> 2d5605f7141b2e3b779fe6e1cb53922de73b9a6d
   border-style: solid;
   border-width: .1em;
 }
 
+<<<<<<< HEAD
 /*first section*/
 .section-1{
   background-image: url('/Users/Geralle/Desktop/thinkful/landing-page/images/first-background.jpg');
@@ -100,12 +137,24 @@ body{
 
 .learn-button a:link{
   color: white;
+=======
+a:link{
+  /*font-size:16px;*/
+  color: grey;
+>>>>>>> 2d5605f7141b2e3b779fe6e1cb53922de73b9a6d
   text-decoration: none;
+  /*adds a smooth transition between :hover that is compatible accross browsers*/
+  /*-webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;*/
 }
 .learn-button:hover{
   background-color: #d9400e;
 }
 
+<<<<<<< HEAD
 /*Links*/
 
 .menu-items a:link{
@@ -124,3 +173,9 @@ body{
   /*font-size: 16.25px;*/
   color: black;
 }
+=======
+a:hover{
+  /*font-size: 16.25px;*/
+  color: black;
+}
+>>>>>>> 2d5605f7141b2e3b779fe6e1cb53922de73b9a6d
