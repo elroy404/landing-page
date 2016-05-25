@@ -16,7 +16,7 @@
   /*position: absolute;*/
   height: 4em;
   width: 60%;
-  /*padding: 0px 15px;*/
+  padding: 0px 15px;
   margin: 0 auto;
   border-style: solid;
   border-width: .2em;
@@ -47,10 +47,18 @@
 }
 
 a:link{
+  /*font-size:16px;*/
   color: grey;
   text-decoration: none;
+  /*adds a smooth transition between :hover that is compatible accross browsers*/
+  /*-webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;*/
 }
 
 a:hover{
+  /*font-size: 16.25px;*/
   color: black;
 }
