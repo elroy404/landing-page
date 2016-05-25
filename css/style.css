@@ -1,43 +1,126 @@
-.main-head{
-  height: 4.375rem;
-  width: 60rem;
-  padding-top: .938em;
-  margin: auto;
+/*top navigation bar*/
+/*
+body{
+    box-sizing: border-box;
 }
 
-.m-logo{
-  float: left;
-  height: 2.5em;
-  width: auto;
+*, *:before, *:after {
+  box-sizing: inherit;
+}*/
+
+.navigation {
+  height: auto;
+  /*padding-top: .9em;*/
+  border-style: solid;
+  border-width: .2em;
+  border-color: orange;
+}
+
+.container{
+  /*position: absolute;*/
+  height: 4em;
+  width: 60%;
+  padding: 0px .98em;
+  margin: 0 auto;
+  border-style: solid;
+  border-width: .2em;
+  border-color: blue;
+}
+
+.logo{
+  /*float: left;*/
+  height: auto;
+  width: 26px;
   border-style: solid;
   border-width: .1em;
-  margin-left: 8em;
+  /*margin-left: 8em;*/
+  padding-top: .5em;
 }
 
 .menu{
   float: right;
-  margin-right: 8em;
+  margin-top: 1.3em;
   border-style: solid;
   border-width: .1em;
 }
+
+/*each individual menu item*/
 .menu-items{
   display: inline;
+  padding-right: 1.4em;
   border-style: solid;
   border-width: .1em;
-  padding-right: 1em;
 }
 
-a:link{
-  color: grey;
+/*first section*/
+.section-1{
+  background-image: url('/Users/Geralle/Desktop/thinkful/landing-page/images/first-background.jpg');
+  background-position: center -80px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 45rem;
+  border-style: solid;
+  border-width: .2em;
+  border-color: orange;
+  overflow: auto;
+}
+.section-1 > .container{
+  height: auto;
+  width: 60%;
+  color: white;
+  text-align: center;
+}
+
+.container h1{
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 3rem;
+  margin-top: 12rem;
+}
+
+.container h3{
+  font-family: Roboto;
+  font-weight: 100;
+  font-size: 1.58rem;
+  margin-top: -1.6rem;
+}
+
+/*Button*/
+.learn-button {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 1.1em;
+  background-color: #f15a29;
+  border-style: none;
+  border-radius: 5px;
+  width: 9em;
+  padding: 1rem 1.5rem;
+  height: auto;
+}
+
+.learn-button a:link{
+  color: white;
   text-decoration: none;
 }
-
-a:hover{
-  color: black;
+.learn-button:hover{
+  background-color: #d9400e;
 }
 
-.container-1{
-  position: absolute;
-  border-style: solid;
-  border-width: .1em;
+/*Links*/
+
+.menu-items a:link{
+  /*font-size:16px;*/
+  color: grey;
+  text-decoration: none;
+  /*adds a smooth transition between :hover that is compatible accross browsers*/
+  /*-webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;*/
+}
+
+.menu-items a:hover{
+  /*font-size: 16.25px;*/
+  color: black;
 }
