@@ -9,11 +9,14 @@ body{
 }*/
 
 .navigation {
-  height: auto;
+  width: 100%;
   /*padding-top: .9em;*/
-  border-style: solid;
+  /*border-style: solid;
   border-width: .2em;
-  border-color: orange;
+  border-color: orange;*/
+  position: fixed;
+  z-index: 9999;
+  background-color: #fff;
 }
 
 .container{
@@ -22,17 +25,18 @@ body{
   width: 60%;
   padding: 0px .98em;
   margin: 0 auto;
-  border-style: solid;
+  box-sizing: border-box;
+  /*border-style: solid;
   border-width: .2em;
-  border-color: blue;
+  border-color: blue;*/
 }
 
 .logo{
   /*float: left;*/
   height: auto;
   width: 26px;
-  border-style: solid;
-  border-width: .1em;
+  /*border-style: solid;
+  border-width: .1em;*/
   /*margin-left: 8em;*/
   padding-top: .5em;
 }
@@ -40,28 +44,28 @@ body{
 .menu{
   float: right;
   margin-top: 1.3em;
-  border-style: solid;
-  border-width: .1em;
+  /*border-style: solid;
+  border-width: .1em;*/
 }
 
 /*each individual menu item*/
 .menu-items{
   display: inline;
   padding-right: 1.4em;
-  border-style: solid;
-  border-width: .1em;
+  /*border-style: solid;
+  border-width: .1em;*/
 }
 
 /*first section*/
 .section-1{
-  background-image: url('/Users/Geralle/Desktop/thinkful/landing-page/images/first-background.jpg');
+  background-image: url('/Users/Geralle/Desktop/thinkful/landing-page/site/images/first-background.jpg');
   background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
   height: 45rem;
-  border-style: solid;
+  /*border-style: solid;
   border-width: .2em;
-  border-color: orange;
+  border-color: orange;*/
   overflow: auto;
 }
 .section-1 > .container{
@@ -85,44 +89,39 @@ body{
   margin-top: -1.6rem;
 }
 
-.section-2{
-  border-style: solid;
-  border-width: .2em;
-  border-color: orange;
+.section-2 h2{
+  font-family: Roboto;
+  font-size: 3em;
+  font-weight: 300;
+  margin: 1.625rem 0 3.125rem;
 }
 
 .section-2 .container{
   height: auto;
-  margin-top: 7em;
-  margin-bottom: 7em;
-}
-
-.section-2 .container h1{
-  font-family: Roboto;
-  font-weight: 300;
-  font-size: 2.75rem;
+  margin-top: 8em;
+  margin-bottom: 8em;
   text-align: center;
-  border-style: solid;
+  /*border-style: solid;
   border-width: .2em;
-  border-color: orange;
+  border-color: blue;*/
 }
 
-.specs{
-  float: left;
+.perks {
   list-style: none;
-  width: 33%;
-  border-style: solid;
-  border-width: .1em;
-  border-color: orange;
+  box-sizing: border-box;
+  padding: 0;
 }
 
-.specs div{
-  font-family: Roboto;
+.perks .specs {
+  width: 30%;
+  display: inline-block;
+  margin-right: .5em;
+}
+
+.specs .caption{
   font-weight: 400;
-  font-size: 1.5em;
-  border-style: solid;
-  border-width: .1em;
-  border-color: orange;
+  font-size: 1.3em;
+  margin-top: 1em;
 }
 
 /*Button*/
@@ -163,4 +162,47 @@ body{
 .menu-items a:hover{
   /*font-size: 16.25px;*/
   color: black;
+}
+
+
+
+/*Footer*/
+
+.social .container{
+  height: auto;
+  text-align: center;
+  margin-bottom: 5em;
+  border-top: solid;
+  border-width: .01em;
+  border-color: #BDBDBD;
+}
+
+.icons{
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 2em;
+}
+
+.icons li{
+  padding-left: 1em;
+}
+
+.fa-twitter{
+  color: #55acee;
+}
+
+.fa-facebook{
+  color: #4c66a4;
+}
+
+.fa-instagram{
+  color: #3f729b;
+}
+
+.fa-circle-thin{
+  color: #E0E0E0;
+}
+
+.copyright{
+  color: #BDBDBD;
 }

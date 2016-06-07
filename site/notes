@@ -1,0 +1,53 @@
+
+.section-2{
+  overflow: hidden;
+  border-style: solid;
+  border-width: .2em;
+  border-color: orange;
+}
+
+.section-2 .container{
+  height: auto;
+  margin-top: 7em;
+  margin-bottom: 7em;
+  text-align: center;
+}
+
+.section-2 .container h2{
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 2.75rem;
+  text-align: center;
+  border-style: solid;
+  border-width: .2em;
+  border-color: orange;
+}
+
+.section-2 .perks{
+  /*height: 30em;*/
+  /*padding: 0 0;*/
+  border-style: solid;
+  border-width: .1em;
+  border-color: blue;
+}
+
+.specs{
+  float: left;
+  /*text-align: center;*/
+  list-style: none;
+  /*width: 33%;*/
+  /*margin: 0 .7em;*/
+  border-style: solid;
+  border-width: .1em;
+  border-color: orange;
+}
+
+.specs div{
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 1.5em;
+  text-align: center;
+  border-style: solid;
+  border-width: .1em;
+  border-color: orange;
+}
