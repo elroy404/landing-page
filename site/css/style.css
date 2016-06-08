@@ -135,14 +135,17 @@ body{
   width: 9em;
   padding: 1rem 1.5rem;
   height: auto;
+  transition: .3s;
+  text-shadow: 0 0 black;
 }
 
-.learn-button a:link{
+.learn-button a:link, .learn-button a:visited{
   color: white;
   text-decoration: none;
 }
 .learn-button:hover{
   background-color: #d9400e;
+  text-shadow: .5em 1em 1em black;
 }
 
 /*Links*/
@@ -170,8 +173,8 @@ body{
 
 .social .container{
   height: auto;
-  text-align: center;
   margin-bottom: 5em;
+  text-align: center;
   border-top: solid;
   border-width: .01em;
   border-color: #BDBDBD;
@@ -179,12 +182,31 @@ body{
 
 .icons{
   list-style: none;
+  text-align: center;
   padding-left: 0;
   margin-bottom: 2em;
+
 }
 
 .icons li{
-  padding-left: 1em;
+  display: inline;
+}
+
+.icons .fa{
+  height: .9em;
+  width: 2.1em;
+  padding: .612em 0;
+  margin: 0 .5em;
+  border-style: solid;
+  border-width: .01em;
+  border-color: #BDBDBD;
+  transition: .3s;
+  text-shadow: 0 0 black;
+}
+
+.icons .fa:hover{
+  border-radius: 50%;
+  text-shadow: .5em 1em 1em;
 }
 
 .fa-twitter{
@@ -205,4 +227,16 @@ body{
 
 .copyright{
   color: #BDBDBD;
+}
+
+.circle{
+  margin: 5em auto;
+  width: 500px;
+  height: 500px;
+  background-color: orange;
+  transition: .3s;
+}
+
+.circle:hover{
+  border-radius: 50%;
 }
