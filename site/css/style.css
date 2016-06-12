@@ -58,7 +58,7 @@ body{
 
 /*first section*/
 .section-1{
-  background-image: url('/Users/Geralle/Desktop/thinkful/landing-page/site/images/first-background.jpg');
+  background-image: url('images/first-background.jpg');
   background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
